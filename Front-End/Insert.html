@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">  
+    <style>
+        body{
+           background-image: url(studentimage);
+           background-repeat: no-repeat;
+           background-size:cover ;
+        }
+    </style>
+</head>
+<body>
+    <div class="container py-3">
+        <div class="row row1">
+            <div class="col-lg-4 col-sm-4 p-2">
+            <form action="InsertServlet" method="post">
+            <p class="h3 mb-3"><i>Enter Name</i></p>
+                <input type="text" class="form-control mb-3" name="name" id="name" required="required">
+                <p class="h3 mb-3"><i>Enter RollNo</i></p>
+                <input type="text" class="form-control mb-3" name="rollno" id="rollno" required="required">
+                <p class="h3 mb-3"><i>Enter DateOfBirth</i></p>
+                <input type="date" class="form-control mb-3" name="date" id="date" required="required">
+                <p class="h3 mb-3"><i>Enter Year</i></p>
+                <input type="text" class="form-control mb-3" name="year" id="year" required="required">
+                <p class="h3 mb-3"><i>Enter Department</i></p>
+                <input type="text" class="form-control mb-3" name="dept" id="dept" required="required">
+                <p class="h3 mb-3"><i>Enter Attendance</i></p>
+                <input type="text" class="form-control mb-3" name="attend" id="attend" required="required">
+                <p class="h3 mb-3"><i>Enter Grade</i></p>
+                <input type="text" class="form-control mb-3" name="grade" id="grade" required="required">
+                <p class="h3 mb-3"><i>Enter PhoneNumber</i></p>
+                <input type="text" class="form-control mb-3" name="phoneno" id="phoneno" required="required">
+                 <div class="text-center">
+                <button type="submit" name="search" id="search" class="btn btn-info "><em>SUBMIT</em></button>
+            </div>
+            </form>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
