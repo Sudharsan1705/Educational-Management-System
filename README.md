@@ -1,5 +1,5 @@
-# Educational-Management-System-Project
-Educational Management System Project
+# Educational-Management-System-Mini-Project
+
  This mini-project is developed using Web application development using java
 
  Front-end:
